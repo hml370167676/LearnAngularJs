@@ -7,3 +7,4 @@ app.controller('InputTypeCheckBoxController',['$scope',function ($scope) {
         value2 : 'YES'
     };
 }]);
+app.controller ('')
