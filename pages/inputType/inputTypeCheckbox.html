@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="myApp">
+<div>
+    <form name="myForm" ng-controller="InputTypeCheckBoxController">
+        <fieldset>
+            <legend>AngularJs Input Type Checkbox Example</legend>
+            <label>Value1:
+                <input type="checkbox" ng-model="checkboxModel.value1" ng-true-value="'YES'"
+                       ng-false-value="'NO'"></label><br/>
+            <label>Value2:
+                <input type="checkbox" ng-model="checkboxModel.value2" ng-true-value="'YES'"
+                       ng-false-value="'NO'"></label><br/>
+            <tt>value1 = {{checkboxModel.value1}}</tt><br/>
+            <tt>value2 = {{checkboxModel.value2}}</tt><br/>
+        </fieldset>
+    </form>
+
+</div>
+<script src="../../js/angular.js"></script>
+<script src="../../js/app.js"></script>
+<script src="../../js/controller/angularController.js"></script>
+</body>
+</html>
